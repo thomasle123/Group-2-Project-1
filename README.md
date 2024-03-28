@@ -1,17 +1,17 @@
 # Group-2-Project-1
 
-**Team Name**
+## **Team Name**
 Sp24_61608_Group 2 
 
-**Team Members:**
-Dylan Artis (https://github.com/DJA706)
-Dana Baus (https://github.com/Dananasplitt)
-Molly Butkovich (https://github.com/mollybutkovich)
-Connor Coniglio (me)
-Thomas Le (https://github.com/thomasle123)
-Alex Quinlan (https://github.com/AlexQuinlan12)
+## **Team Members:**
+1. Dylan Artis (https://github.com/DJA706)
+2. Dana Baus (https://github.com/Dananasplitt)
+3. Molly Butkovich (https://github.com/mollybutkovich)
+4. Connor Coniglio (me)
+5. Thomas Le (https://github.com/thomasle123)
+6. Alex Quinlan (https://github.com/AlexQuinlan12)
 
-**Problem Description:**
+## **Problem Description:**
 A description of the client scenario that you are modeling describing it in sufficient detail that
 makes sense in the context of your data model. This should be reflective of your conversation
 with your client.
@@ -22,7 +22,7 @@ By using our relational database on your baseball operations, our client will be
 
 Our model and analysis were created to ensure proper integration of all aspects of team management. Due to the dynamic nature of the MLB and the Atlanta Braves position in it, this breakdown of our client’s structure will highlight the organization’s operational needs and allow the company to gain a competitive advantage amongst other teams.
 
-**Our Data Model:**
+## **Our Data Model:**
 Include a screenshot of the data model. An explanation of the data model including the relationships between the entities in natural English.
 Please include any screenshots of any of the substantive conversations you have had with your client that have informed the data model.
 
@@ -39,7 +39,7 @@ Returning to the center focus of our data model, the Players, each player has th
 Additionally, it is natural in high-level sports for players to get injured. The Atlanta Braves prepare for this by having multiple team doctors on staff who are specialized in their field and have many years of experience. Those doctors are shown on the TeamDoctor entity. There is a many-to-many relationship established between the Players and to TeamDoctor entity because the players can experience many injuries and the team doctors can treat many different injuries. The associate entity created is the Injuries entity which describes the injury type and cleared date. It is very important for the Braves’ Manager to be able to keep up with the well-being of their players to ensure a successful season! 
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/bd288337-f0d9-4fad-aada-b4fcc5ab9587)
 
-**Data Dictionary:**
+## **Data Dictionary:**
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/a24170ae-f1de-43df-81f3-e4d2fb2b336a)
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/dbb83533-eff6-4a1a-a0d3-6be9fb00ebf2)
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/34b0a113-fc98-4aef-a641-7ecf8d0b840f)
@@ -55,7 +55,7 @@ Additionally, it is natural in high-level sports for players to get injured. The
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/52253923-ce33-4771-b26c-fffa3f27d2b9)
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/c6498037-adf4-4fd6-966c-81b86e93deb7)
 
-**Queries:**
+## **Queries:**
 
 ![image](https://github.com/ConnorConiglio/Group-2-Project-1/assets/163012186/c9d27f2b-1a37-4bf3-b611-2efdee3d12b3)
 
@@ -109,7 +109,7 @@ Description: The purpose of this query to see which coaches are making more than
 
 Description: The purpose of this query is to narrow in on 2-3 hour practices and see which players have broken equipment (bats, in this case). Furthermore, it will also show the type of facility and which facility the noted practice takes place in. This query is valuable to our client because it allows them to optimize facility use, ensure player safety (i.e. - stop them from using faulty equipment, and also allow players to get the most out of their practices. 
 
-**Database Information:**
+## **Database Information:**
 Name of the database: ns_Sp24_61608_Group2
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Qx();
 
